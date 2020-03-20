@@ -1,0 +1,15 @@
+1. 98% train . 1% dev . 1% test
+2. Come from the same distribution
+3. 	a. Add regularization
+	  b. Get more training data
+4. 	a. Increase the regularization parameter lambda
+	  b. Get more training data
+5. A regularization technique (such as L2 regularization) that results in gradient descent shrinking the weights on every iteration.
+6. Weights are pushed toward becoming smaller (closer to 0)
+7. You do not apply dropout (do not randomly eliminate units) and do not keep the 1/keep_prob factor in the calculations used in training
+8. 	a. Reducing the regularization effect
+	  b. Causing the neural network to end up with a lower training set error
+9. 	a. Dropout
+	  b. L2 regularization
+	  c. Data augmentation
+10. It makes the cost function faster to optimize
